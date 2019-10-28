@@ -1,0 +1,102 @@
+.mh-message-bar {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222326;
+  font-weight: 400;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: #509bf5;
+}
+
+.mh-html-text {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+
+.cookie-link {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-box-direction: normal;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+
+.mh-close {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  font-family: inherit;
+  line-height: inherit;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  flex-shrink: 0;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  margin-left: 30px;
+}
+
+.mh-screen-reader-only {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-direction: normal;
+  font: inherit;
+  text-transform: none;
+  font-family: inherit;
+  line-height: inherit;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.mh-container {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222326;
+  font-weight: 400;
+  -webkit-box-direction: normal;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
